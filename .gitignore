@@ -1,0 +1,11 @@
+node_modules
+bower_components
+*.log
+.DS_Store
+Thumbs.db
+/build/
+/releases/
+/tmp/
+
+app/renderer/styles/angular-material
+app/renderer/styles/angular-ui-grid
