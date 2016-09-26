@@ -10,14 +10,14 @@ module.exports.setDevMenu = function () {
         submenu: [{
             label: 'Reload',
             accelerator: 'CmdOrCtrl+R',
-            click: function () {
-                BrowserWindow.getFocusedWindow().reloadIgnoringCache();
+            click: function (item, focusedWindow) {
+                focusedWindow.reload();
             }
         },{
             label: 'Toggle DevTools',
             accelerator: 'Alt+CmdOrCtrl+I',
             click: function () {
-                BrowserWindow.getFocusedWindow().toggleDevTools();
+                BrowserWindow.toggleDevTools();
             }
         },{
             label: 'Quit',
