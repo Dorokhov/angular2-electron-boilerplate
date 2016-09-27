@@ -1,8 +1,12 @@
-{"private": true,
+{
+  "private": true,
   "scripts": {
     "start": "electron main.js"
   },
-  "name" : "setup",
+  "name": "setup",
+  "productName": "setup",
+  "identifier": "setup",
+  "version": "1.0.0.0",
   "main": "main.js",
   "dependencies": {
     "@angular/common": "2.0.0",
