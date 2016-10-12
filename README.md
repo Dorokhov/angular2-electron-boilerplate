@@ -1,7 +1,7 @@
 
 # Angular 2 Electron Boilerplate #
 
-Boilerplate application for building cross-platforms desktop applications using Angular 2.
+Boilerplate application for building cross-platforms desktop applications using Angular 2, HTML and CSS.
 
 ![alt tag](demo-picture.jpg)
 
