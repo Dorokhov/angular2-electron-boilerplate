@@ -5,9 +5,9 @@ Boilerplate application for building cross-platforms desktop applications using 
 
 ![alt tag](demo-picture.jpg)
 
-This project is adoption original electron boilerplate (https://github.com/szwacz/electron-boilerplate) project and includes following technologies:
+This project is adoption of Angular 2 to original electron boilerplate project (https://github.com/szwacz/electron-boilerplate).
 
-## Packages: ##
+## Packages ##
 
 * Electron
 * Angular 2
