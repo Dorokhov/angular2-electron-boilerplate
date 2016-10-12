@@ -1,2 +1,2 @@
 
-![alt tag](.demo-picture.jpg)
+![alt tag](demo-picture.jpg)
