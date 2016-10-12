@@ -27,7 +27,7 @@ npm start
 
 ## Adding NPM Packages ##
 
-Application NPM packages should be added to 'renderer/app/packages.json' config file.
+Application NPM packages should be added to '/renderer/app/packages.json' config file.
 
 ## Making Release ##
 
