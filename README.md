@@ -10,8 +10,8 @@ This project is adoption of Angular 2 to original electron boilerplate project (
 ## Packages ##
 
 * Electron
-* Angular 2
-* Typescript
+* Angular 4
+* Typescript 2.3
 * SASS
 
 ## Getting Started ##
@@ -20,7 +20,7 @@ NodeJs required.
 
 ```
 git clone https://github.com/Dorokhov/angular2-electron-boilerplate
-cd electron-boilerplate
+cd angular2-electron-boilerplate
 npm install
 npm start
 ```
