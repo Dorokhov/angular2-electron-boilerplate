@@ -29,10 +29,10 @@ app.on('ready', function () {
 
     mainWindow.loadURL('file://' + __dirname + '/renderer/app.html');
 
- //   if (env.name === 'development') {
- //       devHelper.setDevMenu();
- //       mainWindow.openDevTools();
- //   }
+    if (env.name === 'development') {
+        devHelper.setDevMenu();
+        mainWindow.openDevTools();
+    }
 
     mainWindow.on('close', function () {
         mainWindowState.saveState(mainWindow);

@@ -15,8 +15,7 @@ if (process.platform === 'win32') {
 
 var runBuild = function () {
     var deferred = Q.defer();
-console.log('HELLO')
-console.log(utils.getEnvName())
+    
     var build = childProcess.spawn(gulpPath, [
         'build',
         '--env=' + utils.getEnvName(),
